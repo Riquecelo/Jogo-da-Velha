@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha </title>
+    <link rel="shortcut icon" href="image/jogo-da-velha.png" type="image/x-icon">
+    <style>
+
+        #mostrador{
+            margin: auto;
+            margin-top: 40px;
+            margin-bottom: 30px;
+            width: 252px;
+            height: 80px;
+        }
+
+        .espaco{
+            width: 80px;
+            height: 60px;
+            border: 2px solid #000;
+            float: left;
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        .tabuleiro{
+            margin: auto;
+            width: 252px;
+            height: 252px;
+        }
+        /*img{
+            height: 5px;
+        }*/
+
+    </style>
+</head>
+<body>
+    <div id="mostrador">
+        <p style="float: left; margin-right: 10px;">Vez do Jogador:</p>
+        <img src="" border="0" height="50" alt="">
+    </div>
+
+    <div class="tabuleiro">
+        <div id="a1" class="espaco" jogada=""></div>
+        <div id="a2" class="espaco" jogada=""></div>
+        <div id="a3" class="espaco" jogada=""></div>
+
+        <div id="b1" class="espaco" jogada=""></div>
+        <div id="b2" class="espaco" jogada=""></div>
+        <div id="b3" class="espaco" jogada=""></div>
+
+        <div id="c1" class="espaco" jogada=""></div>
+        <div id="c2" class="espaco" jogada=""></div>
+        <div id="c3" class="espaco" jogada=""></div>
+    </div>
+
+    <script src="game.js"></script>
+    <footer>
+        <div>�cones feitos por <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com</a></div>
+    </footer>
+</body>
+</html>
