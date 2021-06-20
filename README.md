@@ -6,8 +6,10 @@
  Fiz o jogo baseado no tutoril Jogo da Velha do <strong>canal Programador BR</strong>. <img src="https://programadorbr.com/assets/content/images/logo_progbr_blue.png" heigth="50" width="50"> <br>
  Segue abaixo o link do vídeo do canal para quem quiser praticar.<br>
  <https://youtu.be/Ueh549xEV9E> <hr>
- confira o jogo no link abaixo:<br>
+ * No lado esquerdo está a primera versão do tutorial.<br>
+ * No lado direito está a minha versão com alterações css.<br>
+ * Confira o jogo no link abaixo:<br>
 <https://riquecelo.github.io/Jogo-da-Velha/>
 
+<img src="https://github.com/Riquecelo/Jogo-da-Velha/blob/main/Jogo-da-velha.gif" heigth="850" width="400"> <img src="https://github.com/Riquecelo/Jogo-da-Velha/blob/main/Jogo-da-velha2.gif" heigth="850" width="400">
 
-![](https://github.com/Riquecelo/Jogo-da-Velha/blob/main/Jogo-da-velha.gif)
