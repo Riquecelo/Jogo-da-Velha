@@ -8,12 +8,19 @@
     <link rel="shortcut icon" href="image/jogo-da-velha.png" type="image/x-icon">
     <style>
 
+        body{
+            height: 45vw;
+            background: linear-gradient(rgb(235, 80, 80), rgb(42, 102, 214));
+            color: whitesmoke;
+        }
+
         #mostrador{
             margin: auto;
             margin-top: 40px;
             margin-bottom: 30px;
             width: 252px;
             height: 80px;
+            font-size: 20px;
         }
 
         .espaco{
@@ -27,12 +34,23 @@
 
         .tabuleiro{
             margin: auto;
+            margin-top: 25px;
             width: 252px;
             height: 252px;
         }
-        /*img{
-            height: 5px;
-        }*/
+        .vidro{
+            margin: auto;
+            width: 300px;
+            height: 300px;
+            border: 1px solid rgb(255 255 255 / 20%);
+            background: linear-gradient(135deg, rgb(255 255 255 / 10%)0%, transparent 100%);
+            backdrop-filter: blur(10px);
+            box-shadow: 1px 1px 0px 0px rgb(255 255 255 / 20%);
+        }
+
+        footer p{
+            text-align: center;
+        }
 
     </style>
 </head>
@@ -42,23 +60,23 @@
         <img src="" border="0" height="50" alt="">
     </div>
 
-    <div class="tabuleiro">
-        <div id="a1" class="espaco" jogada=""></div>
-        <div id="a2" class="espaco" jogada=""></div>
-        <div id="a3" class="espaco" jogada=""></div>
-
-        <div id="b1" class="espaco" jogada=""></div>
-        <div id="b2" class="espaco" jogada=""></div>
-        <div id="b3" class="espaco" jogada=""></div>
-
-        <div id="c1" class="espaco" jogada=""></div>
-        <div id="c2" class="espaco" jogada=""></div>
-        <div id="c3" class="espaco" jogada=""></div>
+    <div class="vidro">
+        <div class="tabuleiro">
+            <div id="a1" class="espaco" jogada=""></div>
+            <div id="a2" class="espaco" jogada=""></div>
+            <div id="a3" class="espaco" jogada=""></div>
+            <div id="b1" class="espaco" jogada=""></div>
+            <div id="b2" class="espaco" jogada=""></div>
+            <div id="b3" class="espaco" jogada=""></div>
+            <div id="c1" class="espaco" jogada=""></div>
+            <div id="c2" class="espaco" jogada=""></div>
+            <div id="c3" class="espaco" jogada=""></div>
+        </div>
     </div>
 
     <script src="game.js"></script>
     <footer>
-        <div>�cones feitos por <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com</a></div>
+        <p>�ícones feitos por <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com</a></p>
     </footer>
 </body>
 </html>
